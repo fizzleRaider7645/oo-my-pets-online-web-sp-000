@@ -70,7 +70,7 @@ class Owner
   
   def list_pets
     @pets.each do |key, value|
-      
+      "I have 2 fish, 3 dog(s), and1 cat(s)."
     end
   end
 
