@@ -63,6 +63,7 @@ class Owner
     @pets.each do |key, value|
       value.each do |pet|
         pet.mood = "nervous"
+        pet.delete
       end
     end
   end
