@@ -61,7 +61,7 @@ class Owner
   
   def sell_pets
     @pets.each do |key, value|
-      value
+      value.each do |pet|
     end
   end
 
